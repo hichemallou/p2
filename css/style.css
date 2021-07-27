@@ -69,10 +69,14 @@ a.active{
 
     
 }
+.populaires{   width: 30%;}
+
 .marseille .items{
     display: flex;
     flex-wrap: wrap;
 }
+
+
 .marseille .item{
     flex: 0 0 32%; /* explanation below */
     margin: 5px;
@@ -83,4 +87,5 @@ a.active{
 
 }
 
-.populaires{   width: 30%;}
+
+
