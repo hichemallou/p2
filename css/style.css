@@ -1,0 +1,86 @@
+body{
+    font-family:   roboto , Georgia; ;
+}
+
+a{ text-decoration: none;}
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{font-size: 20px;}
+#main{
+    padding: 10px 50px;
+}
+li{list-style: none;}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+nav a{
+    width: 100px;
+}
+a.active{
+    color: rgb(28, 115, 245);
+    border-top: solid;
+    padding: 30px ;
+}
+.logo{ width: 100px;}
+
+
+.recherche form{
+    display: flex;
+}
+.recherche input{
+    border-color: #efefef;
+    border: none;
+    width: 300px;
+}
+.recherche .icon-localisation {
+    background: #efefef;
+    padding: 12px 15px;
+    border-radius: 10px 0 0 10px;
+}
+
+.recherche button{
+    background-color: rgb(28, 115, 245);
+    border-radius: 0 10px 10px 0;
+    border: none;
+    color: #fff;
+    padding: 0 10px;
+}
+
+
+.hebergement{
+    display: flex;
+    padding-top: 30px;
+}
+
+
+.marseille, .populaires{
+    background: #ccc;
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+
+    
+}
+.marseille .items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.marseille .item{
+    flex: 0 0 32%; /* explanation below */
+    margin: 5px;
+    height: 100px;
+    background-color:#fff;
+
+    border-radius: 10px;
+
+}
+
+.populaires{   width: 30%;}
